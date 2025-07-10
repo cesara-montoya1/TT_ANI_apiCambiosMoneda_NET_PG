@@ -4,7 +4,7 @@ pipeline {
     environment {
         CONTAINER_IMAGE = 'monedas-net-api'
         CONTAINER_NAME = 'monedas-net-api'
-        CONTAINER_NETWORK = 'monedas_net'
+        CONTAINER_NETWORK = 'monedas_network'
         CONTAINER_PORT = '5235'
         HOST_PORT = '5235'
     }
